@@ -1,0 +1,7 @@
+{
+  "AppId": "xxxx",
+  "Thumbprint": "XXXX",
+  "TenantName": "xxxx.tech",
+  "AdminURL": "https://xxxx-admin.sharepoint.com",
+  "RootSite": "https://xxxx.sharepoint.com/"
+}
