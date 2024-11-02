@@ -8,10 +8,10 @@
 
 <# Sample Config file below. starting with { and ending with }
 {
-  "AppId": "5a78992e-4cd0-4ad4-839f-b4a9c5e4f8c1",
-  "Thumbprint": "6DF3D32DA943DDDC0C905A56C2A9C688A1C45C5C",
-  "TenantName": "m365x27828082.onmicrosoft.com",
-  "AdminURL": "https://m365x27828082-admin.sharepoint.com"
+  "AppId": "xxxx-yyyy-zzzz",
+  "Thumbprint": "xxxx-yyyy-zzzz",
+  "TenantName": "xxxx.onmicrosoft.com",
+  "AdminURL": "https://xxxx-admin.sharepoint.com"
 }
 #>
 # Read the configuration from the config.txt file
