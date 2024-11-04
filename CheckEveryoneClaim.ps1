@@ -81,13 +81,13 @@ Function ProcessSite {
         Connect-PnPOnline -Url $SiteObject.SiteUrl -Tenant $tenantUrl -ClientId $appClientId -Thumbprint $appThumbprint
         #"Everyone" Group's Login ID
         $EveryoneLoginName = "c:0(.s|true"
-        $Everyone = Get-PnPUser -Identity $EveryoneLoginName
+        $Everyone = Get-PnPUser -Identity $EveryoneLoginName -WithRightsAssigned 
         if ($Everyone -ne $null) {
             $siteInfo.Everyone = "True"
         }
         #Get "Everyone Except External Users" Login ID
         $EEEULoginName = "c:0-.f|rolemanager|spo-grid-all-users/$tenantId"
-        $EEEU = Get-PnPUser -Identity $EEEULoginName
+        $EEEU = Get-PnPUser -Identity $EEEULoginName -WithRightsAssigned 
         if ($EEEU -ne $null) {
             $siteInfo.EveryoneExceptExternalUsers = "True"
         }
