@@ -7,6 +7,7 @@
 
 
 $tenant = "XXXXX"
+$tenantId = "XXXX"
 $tenantUrl = "$tenant.onmicrosoft.com"
 $tenantAdminUrl = "https://XXXXX-admin.sharepoint.com"
 $appClientId = "XXXXX"
